@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #657375;
-  --secondary-color: #cebd8f;
+  --secondary-color: #fbd784;
 }
 
 * {
@@ -43,6 +43,7 @@ nav ul {
 
 nav ul li {
   margin: 0 30px;
+  transition: transform 0.2s ease-out;
 }
 
 nav ul li a {
@@ -50,8 +51,10 @@ nav ul li a {
   padding: 10px;
 }
 
+nav ul li:hover,
 nav ul li a:hover {
   color: var(--secondary-color);
+  transform: translateY(-3px);
 }
 
 #account {
