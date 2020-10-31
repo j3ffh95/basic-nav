@@ -4,3 +4,9 @@
   --primary-color: #657375;
   --secondary-color: #fff;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
