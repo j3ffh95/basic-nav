@@ -42,13 +42,13 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 30px;
+  margin: 0 5px;
   transition: transform 0.2s ease-out;
 }
 
 nav ul li a {
   font-size: 15px;
-  padding: 10px;
+  padding: 30px;
 }
 
 nav ul li:hover,
@@ -64,6 +64,12 @@ nav ul li a:hover {
 #account i {
   font-size: 1.3rem;
   margin-right: 7px;
+  transition: color 0.2s ease-in-out;
+}
+
+#account:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
 /* Utility */
