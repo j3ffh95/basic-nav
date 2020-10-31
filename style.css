@@ -15,3 +15,23 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+#main-header {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* Utility */
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
